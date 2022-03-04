@@ -1,0 +1,1258 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1682502300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Check the title",
+        "description": "",
+        "id": "hotelbooking;check-the-title",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 241361800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88047100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "check the title of the page",
+            "match": {
+              "location": "StepDefHotelBooking.check_the_title_of_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1115888300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Successful hotel booking with all valid data",
+        "description": "",
+        "id": "hotelbooking;successful-hotel-booking-with-all-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 245817000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using name\u003dtxtFN\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027INLEN8520017293\u0027, ip: \u0027192.168.1.42\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)\r\n\tat step_definition.HotelBookingPageFactory.setPffname(HotelBookingPageFactory.java:75)\r\n\tat step_definition.StepDefHotelBooking.user_enters_all_valid_data(StepDefHotelBooking.java:59)\r\n\tat ✽.user enters all valid data(Feature/Hotel_booking.feature:21)\r\n",
+              "duration": 9974732400,
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "user enters all valid data",
+            "match": {
+              "location": "StepDefHotelBooking.user_enters_all_valid_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59600,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "navigate to welcome page",
+            "match": {
+              "location": "StepDefHotelBooking.navigate_to_welcome_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          },
+          {
+            "name": "@succesful_login"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1107135300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Failure in hotel Booking on leaving the first Name empty",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-leaving-the-first-name-empty",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 218481800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027txtFN\u0027]\"}\n  (Session info: chrome\u003d98.0.4758.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027INLEN8520017293\u0027, ip: \u0027192.168.1.42\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\\Users\\vibind\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62361}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b01c46b5f7fdcca7104dbb72970876eb\n*** Element info: {Using\u003dname, value\u003dtxtFN}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)\r\n\tat step_definition.HotelBookingPageFactory.setPffname(HotelBookingPageFactory.java:75)\r\n\tat step_definition.StepDefHotelBooking.user_leaves_first_Name_blank(StepDefHotelBooking.java:89)\r\n\tat ✽.user leaves first Name blank(Feature/Hotel_booking.feature:26)\r\n",
+              "duration": 10023463000,
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "user leaves first Name blank",
+            "match": {
+              "location": "StepDefHotelBooking.user_leaves_first_Name_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 747000,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "clicks the button",
+            "match": {
+              "location": "StepDefHotelBooking.clicks_the_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33000,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          },
+          {
+            "name": "@first_name_field_validation"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1206200000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Failure in hotel Booking on leaving the last Name blank",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-leaving-the-last-name-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 241817300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027txtFN\u0027]\"}\n  (Session info: chrome\u003d98.0.4758.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027INLEN8520017293\u0027, ip: \u0027192.168.1.42\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\\Users\\vibind\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62422}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 34fbc6f8e3335d92df6506ca96eb6ec2\n*** Element info: {Using\u003dname, value\u003dtxtFN}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)\r\n\tat step_definition.HotelBookingPageFactory.setPffname(HotelBookingPageFactory.java:75)\r\n\tat step_definition.StepDefHotelBooking.user_leaves_last_Name_blank_and_clicks_the_button(StepDefHotelBooking.java:108)\r\n\tat ✽.user leaves last Name blank and clicks the button(Feature/Hotel_booking.feature:32)\r\n",
+              "duration": 10048415300,
+              "status": "failed"
+            },
+            "line": 32,
+            "name": "user leaves last Name blank and clicks the button",
+            "match": {
+              "location": "StepDefHotelBooking.user_leaves_last_Name_blank_and_clicks_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32800,
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          },
+          {
+            "name": "@last_name_validation"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1197809400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Failure in hotel Booking on incorrect email format",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-incorrect-email-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 263751400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using name\u003dtxtFN\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027INLEN8520017293\u0027, ip: \u0027192.168.1.42\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)\r\n\tat step_definition.HotelBookingPageFactory.setPffname(HotelBookingPageFactory.java:75)\r\n\tat step_definition.StepDefHotelBooking.user_enters_all_data(StepDefHotelBooking.java:115)\r\n\tat ✽.user enters all data(Feature/Hotel_booking.feature:37)\r\n",
+              "duration": 5772333600,
+              "status": "failed"
+            },
+            "line": 37,
+            "name": "user enters all data",
+            "match": {
+              "location": "StepDefHotelBooking.user_enters_all_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41900,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "user enters incorrect email format and clicks the button",
+            "match": {
+              "location": "StepDefHotelBooking.user_enters_incorrect_email_format_and_clicks_the_button()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 33000,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1088054300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Failure in hotel Booking on leaving the mobile no. blank",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-leaving-the-mobile-no.-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 229774400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using name\u003dtxtFN\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027INLEN8520017293\u0027, ip: \u0027192.168.1.42\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)\r\n\tat step_definition.HotelBookingPageFactory.setPffname(HotelBookingPageFactory.java:75)\r\n\tat step_definition.StepDefHotelBooking.user_leaves_MobileNo_blank_and_clicks_the_button(StepDefHotelBooking.java:136)\r\n\tat ✽.user leaves MobileNo blank and clicks the button(Feature/Hotel_booking.feature:43)\r\n",
+              "duration": 4914507700,
+              "status": "failed"
+            },
+            "line": 43,
+            "name": "user leaves MobileNo blank and clicks the button",
+            "match": {
+              "location": "StepDefHotelBooking.user_leaves_MobileNo_blank_and_clicks_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70100,
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1072151400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Failure in hotel Booking on incorrect mobileNo format",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-incorrect-mobileno-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 226459600,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using name\u003dtxtFN\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027INLEN8520017293\u0027, ip: \u0027192.168.1.42\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)\r\n\tat step_definition.HotelBookingPageFactory.setPffname(HotelBookingPageFactory.java:75)\r\n\tat step_definition.StepDefHotelBooking.user_enters_incorrect_mobileNo_format_and_clicks_the_button(StepDefHotelBooking.java:145)\r\n\tat ✽.user enters incorrect mobileNo format and clicks the button(Feature/Hotel_booking.feature:48)\r\n",
+              "duration": 962857800,
+              "status": "failed"
+            },
+            "line": 48,
+            "name": "user enters incorrect mobileNo format and clicks the button",
+            "match": {
+              "location": "StepDefHotelBooking.user_enters_incorrect_mobileNo_format_and_clicks_the_button(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "7722005480"
+                ]
+              },
+              {
+                "cells": [
+                  "0900000000"
+                ]
+              },
+              {
+                "cells": [
+                  "2345678989"
+                ]
+              },
+              {
+                "cells": [
+                  "84321"
+                ]
+              },
+              {
+                "cells": [
+                  "77722005480"
+                ]
+              },
+              {
+                "cells": [
+                  ""
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47100,
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1135903000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "Failure in hotel Booking on not selecting the city",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-not-selecting-the-city",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 228091200,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using name\u003dtxtFN\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027INLEN8520017293\u0027, ip: \u0027192.168.1.42\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)\r\n\tat step_definition.HotelBookingPageFactory.setPffname(HotelBookingPageFactory.java:75)\r\n\tat step_definition.StepDefHotelBooking.user_doesnot_select_city(StepDefHotelBooking.java:165)\r\n\tat ✽.user doesnot select city(Feature/Hotel_booking.feature:59)\r\n",
+              "duration": 4657076000,
+              "status": "failed"
+            },
+            "line": 59,
+            "name": "user doesnot select city",
+            "match": {
+              "location": "StepDefHotelBooking.user_doesnot_select_city()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74800,
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1070514100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "Failure in hotel Booking on not selecting the state",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-not-selecting-the-state",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 232843900,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027txtFN\u0027]\"}\n  (Session info: chrome\u003d98.0.4758.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027INLEN8520017293\u0027, ip: \u0027192.168.1.42\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\\Users\\vibind\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2e884ebad95ed4adb88ab377e5c001e4\n*** Element info: {Using\u003dname, value\u003dtxtFN}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)\r\n\tat step_definition.HotelBookingPageFactory.setPffname(HotelBookingPageFactory.java:75)\r\n\tat step_definition.StepDefHotelBooking.user_doesnot_select_state(StepDefHotelBooking.java:175)\r\n\tat ✽.user doesnot select state(Feature/Hotel_booking.feature:64)\r\n",
+              "duration": 10068992900,
+              "status": "failed"
+            },
+            "line": 64,
+            "name": "user doesnot select state",
+            "match": {
+              "location": "StepDefHotelBooking.user_doesnot_select_state()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40800,
+              "status": "skipped"
+            },
+            "line": 65,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1168366900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 73,
+        "name": "Validate the number of rooms alloted",
+        "description": "",
+        "id": "hotelbooking;validate-the-number-of-rooms-alloted;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 251829100,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using name\u003dtxtFN\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027INLEN8520017293\u0027, ip: \u0027192.168.1.42\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)\r\n\tat step_definition.HotelBookingPageFactory.setPffname(HotelBookingPageFactory.java:75)\r\n\tat step_definition.StepDefHotelBooking.user_enters(StepDefHotelBooking.java:186)\r\n\tat ✽.user enters 2(Feature/Hotel_booking.feature:69)\r\n",
+              "duration": 5523783800,
+              "status": "failed"
+            },
+            "line": 69,
+            "name": "user enters 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefHotelBooking.user_enters(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52700,
+              "status": "skipped"
+            },
+            "line": 70,
+            "name": "allocate rooms such that 1 room for minimum 3 guests",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 25
+                },
+                {
+                  "val": "3",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefHotelBooking.allocate_rooms_such_that_room_for_minimum_guests(int,int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1105881200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 74,
+        "name": "Validate the number of rooms alloted",
+        "description": "",
+        "id": "hotelbooking;validate-the-number-of-rooms-alloted;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 248193200,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using name\u003dtxtFN\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027INLEN8520017293\u0027, ip: \u0027192.168.1.42\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)\r\n\tat step_definition.HotelBookingPageFactory.setPffname(HotelBookingPageFactory.java:75)\r\n\tat step_definition.StepDefHotelBooking.user_enters(StepDefHotelBooking.java:186)\r\n\tat ✽.user enters 6(Feature/Hotel_booking.feature:69)\r\n",
+              "duration": 5656214100,
+              "status": "failed"
+            },
+            "line": 69,
+            "name": "user enters 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefHotelBooking.user_enters(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28600,
+              "status": "skipped"
+            },
+            "line": 70,
+            "name": "allocate rooms such that 1 room for minimum 3 guests",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 25
+                },
+                {
+                  "val": "3",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefHotelBooking.allocate_rooms_such_that_room_for_minimum_guests(int,int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1085885100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 75,
+        "name": "Validate the number of rooms alloted",
+        "description": "",
+        "id": "hotelbooking;validate-the-number-of-rooms-alloted;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 207279500,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027txtFN\u0027]\"}\n  (Session info: chrome\u003d98.0.4758.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027INLEN8520017293\u0027, ip: \u0027192.168.1.42\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\\Users\\vibind\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62612}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 985dab395898b4bf20d276ca43adf0cd\n*** Element info: {Using\u003dname, value\u003dtxtFN}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)\r\n\tat step_definition.HotelBookingPageFactory.setPffname(HotelBookingPageFactory.java:75)\r\n\tat step_definition.StepDefHotelBooking.user_enters(StepDefHotelBooking.java:186)\r\n\tat ✽.user enters 9(Feature/Hotel_booking.feature:69)\r\n",
+              "duration": 10065792700,
+              "status": "failed"
+            },
+            "line": 69,
+            "name": "user enters 9",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefHotelBooking.user_enters(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29600,
+              "status": "skipped"
+            },
+            "line": 70,
+            "name": "allocate rooms such that 1 room for minimum 3 guests",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 25
+                },
+                {
+                  "val": "3",
+                  "offset": 44
+                }
+              ],
+              "location": "StepDefHotelBooking.allocate_rooms_such_that_room_for_minimum_guests(int,int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1208357300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 77,
+        "name": "Failure in hotel Booking on leaving the CardHolderName blank",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-leaving-the-cardholdername-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 239800700,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027txtFN\u0027]\"}\n  (Session info: chrome\u003d98.0.4758.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027INLEN8520017293\u0027, ip: \u0027192.168.1.42\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\\Users\\vibind\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e030b29d07c732c362a286334b0ce4fb\n*** Element info: {Using\u003dname, value\u003dtxtFN}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)\r\n\tat step_definition.HotelBookingPageFactory.setPffname(HotelBookingPageFactory.java:75)\r\n\tat step_definition.StepDefHotelBooking.user_leaves_CardHolderName_blank_and_clicks_the_button(StepDefHotelBooking.java:213)\r\n\tat ✽.user leaves CardHolderName blank and clicks the button(Feature/Hotel_booking.feature:79)\r\n",
+              "duration": 10005825100,
+              "status": "failed"
+            },
+            "line": 79,
+            "name": "user leaves CardHolderName blank and clicks the button",
+            "match": {
+              "location": "StepDefHotelBooking.user_leaves_CardHolderName_blank_and_clicks_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43200,
+              "status": "skipped"
+            },
+            "line": 80,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1234733900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 82,
+        "name": "Failure in hotel Booking on leaving the DebitCardNo blank",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-leaving-the-debitcardno-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 306672500,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027txtFN\u0027]\"}\n  (Session info: chrome\u003d98.0.4758.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027INLEN8520017293\u0027, ip: \u0027192.168.1.42\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\\Users\\vibind\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62644}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 46ccf96338655f2f06b91399649e2611\n*** Element info: {Using\u003dname, value\u003dtxtFN}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)\r\n\tat step_definition.HotelBookingPageFactory.setPffname(HotelBookingPageFactory.java:75)\r\n\tat step_definition.StepDefHotelBooking.user_leaves_DebitCardNo_blank_and_clicks_the_button(StepDefHotelBooking.java:226)\r\n\tat ✽.user leaves DebitCardNo blank and clicks the button(Feature/Hotel_booking.feature:84)\r\n",
+              "duration": 10044482500,
+              "status": "failed"
+            },
+            "line": 84,
+            "name": "user leaves DebitCardNo blank and clicks the button",
+            "match": {
+              "location": "StepDefHotelBooking.user_leaves_DebitCardNo_blank_and_clicks_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30400,
+              "status": "skipped"
+            },
+            "line": 85,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1352127800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 87,
+        "name": "Failure in hotel Booking on leaving the expirationMonth blank",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-leaving-the-expirationmonth-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 431789500,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using name\u003dtxtFN\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027INLEN8520017293\u0027, ip: \u0027192.168.1.42\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)\r\n\tat step_definition.HotelBookingPageFactory.setPffname(HotelBookingPageFactory.java:75)\r\n\tat step_definition.StepDefHotelBooking.user_leaves_expirationMonth_blank_and_clicks_the_button(StepDefHotelBooking.java:240)\r\n\tat ✽.user leaves expirationMonth blank and clicks the button(Feature/Hotel_booking.feature:89)\r\n",
+              "duration": 2199879500,
+              "status": "failed"
+            },
+            "line": 89,
+            "name": "user leaves expirationMonth blank and clicks the button",
+            "match": {
+              "location": "StepDefHotelBooking.user_leaves_expirationMonth_blank_and_clicks_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40800,
+              "status": "skipped"
+            },
+            "line": 90,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to hotelBooking page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1326183300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefHotelBooking.openBrowsser()"
+            }
+          }
+        ],
+        "line": 92,
+        "name": "Failure in hotel Booking on leaving the expirationYr blank",
+        "description": "",
+        "id": "hotelbooking;failure-in-hotel-booking-on-leaving-the-expirationyr-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 221785300,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "User is on hotel booking page",
+            "match": {
+              "location": "StepDefHotelBooking.user_is_on_hotel_booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using name\u003dtxtFN\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027INLEN8520017293\u0027, ip: \u0027192.168.1.42\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.2\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)\r\n\tat step_definition.HotelBookingPageFactory.setPffname(HotelBookingPageFactory.java:75)\r\n\tat step_definition.StepDefHotelBooking.user_leaves_expirationYr_blank_and_clicks_the_button(StepDefHotelBooking.java:256)\r\n\tat ✽.user leaves expirationYr blank and clicks the button(Feature/Hotel_booking.feature:94)\r\n",
+              "duration": 383581800,
+              "status": "failed"
+            },
+            "line": 94,
+            "name": "user leaves expirationYr blank and clicks the button",
+            "match": {
+              "location": "StepDefHotelBooking.user_leaves_expirationYr_blank_and_clicks_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66700,
+              "status": "skipped"
+            },
+            "line": 95,
+            "name": "display alert msg",
+            "match": {
+              "location": "StepDefHotelBooking.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HotelBooking"
+          }
+        ]
+      }
+    ],
+    "name": "HotelBooking",
+    "description": "",
+    "id": "hotelbooking",
+    "keyword": "Feature",
+    "uri": "Feature/Hotel_booking.feature",
+    "tags": [
+      {
+        "name": "@HotelBooking",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
